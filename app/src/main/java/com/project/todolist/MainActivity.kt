@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity() {
         val btn2 = findViewById<Button>(R.id.btnDeleteDoneTodos)
         val et = findViewById<EditText>(R.id.etTodoTitle)
 
+        
+
         rv.adapter = todoAdapter
         rv.layoutManager = LinearLayoutManager(this)
 
